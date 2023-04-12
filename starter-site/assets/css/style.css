@@ -11,11 +11,13 @@ header {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+/* end header styling */
+
 
 /* Nav bar styling */
 #navigationBar {
     background-color: rgb(76, 72, 72);
-    /* In order for sticker to work I had to use the top property and set it to 0 */
+    /* In order for sticky to work I had to use the top property and set it to 0 */
     position: sticky;
     top: 0;
     
@@ -27,4 +29,27 @@ header {
     display: inline-block;
     padding: 15px;
 }
+
+/* End nav styling */
+
+.sideBar {
+/* sets size of columns relative to flex */
+flex: 30%;
+padding-right: 2%;
+}
+.main{
+/* sets size of columns relative to flex */
+    flex: 70%;
+}
+
+/* Page content Styling */
+.pageContent {
+    padding: 1.5%;
+    display: flex;
+}
+
+img {
+    width: 100%
+}
+
 
