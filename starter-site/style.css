@@ -3,11 +3,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header section styling */
 header {
-    background: cornflowerblue;
+    background: rgb(65, 111, 195);
     color: whitesmoke;
     padding: 10px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* Nav bar styling */
+#navigationBar {
+    background-color: rgb(76, 72, 72);
+    /* In order for sticker to work I had to use the top property and set it to 0 */
+    position: sticky;
+    top: 0;
+    
+}
+
+#navigationBar a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 15px;
 }
 
