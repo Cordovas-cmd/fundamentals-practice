@@ -37,9 +37,12 @@ header {
 .pageContent {
     padding: 1.5%;
     display: flex;
+    /* for older browser */
+    display: -ms-flexbox
 }
 
 .sideBar {
+    -ms-flex: 30%;
     /* sets size of columns relative to flex */
     flex: 30%;
     padding-right: 2%;
@@ -47,6 +50,7 @@ header {
     .main{
     /* sets size of columns relative to flex */
         flex: 70%;
+        -ms-flex: 70%;
     }
 
 img {
